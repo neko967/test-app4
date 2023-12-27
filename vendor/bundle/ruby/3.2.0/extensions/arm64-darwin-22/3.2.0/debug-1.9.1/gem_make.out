@@ -1,0 +1,21 @@
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+/Users/misawayuta/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-hsejuf sitelibdir\=./.gem.20231227-23243-hsejuf clean
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-hsejuf sitelibdir\=./.gem.20231227-23243-hsejuf
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-hsejuf sitelibdir\=./.gem.20231227-23243-hsejuf install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20231227-23243-hsejuf/debug
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-hsejuf sitelibdir\=./.gem.20231227-23243-hsejuf clean

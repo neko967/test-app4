@@ -1,0 +1,20 @@
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/misawayuta/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-22l5lm sitelibdir\=./.gem.20231227-23243-22l5lm clean
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-22l5lm sitelibdir\=./.gem.20231227-23243-22l5lm
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-22l5lm sitelibdir\=./.gem.20231227-23243-22l5lm install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20231227-23243-22l5lm/skiptrace/internal
+
+current directory: /Users/misawayuta/workspace/test-app4/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231227-23243-22l5lm sitelibdir\=./.gem.20231227-23243-22l5lm clean
